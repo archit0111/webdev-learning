@@ -66,6 +66,7 @@ function opsdef(arr, l) {
   }
 }
 
+//function
 function ops(num1, opsy, num2) {
   alert(num1 + "jiii" + num2);
   n1 = Number(num1);
