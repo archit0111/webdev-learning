@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <div class="logo"><img src="calsy.png"></div>
+        <div class="heading">
+            <h1>CALCULATOR</h1>
+        </div>
+        <div class="txt">Let's play with numbers..</div>
+    </header>
+    <main class="main">
+        <div class="main-box">
+            <div class="r1">
+                <div id="ac" onclick="reset()">AC</div>
+                <div id="display">
+                    <p id="display-p"></p>
+                </div>
+            </div>
+            <div class="r2">
+                <div id="bt1" onclick="num(1)" >1</div>
+                <div id="bt2" onclick="num(2)">2</div>
+                <div id="bt3" onclick="num(3)">3</div>
+                <div id="btadd" onclick="num('+')">+</div>
+            </div>
+            <div class="r3">
+                
+                <div id="bt4" onclick="num(4)">4</div>
+                <div id="bt5" onclick="num(5)">5</div>
+                <div id="bt6" onclick="num(6)">6</div>
+                <div id="btsub" onclick="num('-')">-</div>
+            </div>
+            <div class="r4">
+
+                <div id="bt7" onclick="num(7)">7</div>
+                <div id="bt8" onclick="num(8)">8</div>
+                <div id="bt9" onclick="num(9)">9</div>
+                <div id="btml" onclick="num('*')">*</div>
+            </div>
+            <div class="r5">
+                <div id="btdeci" onclick="num('.')">.</div>
+                <div id="bt0" onclick="num(0)">0</div>
+                <div id="btdiv" onclick="num('/')">/</div>
+                <div id="btans" onclick="num('=')">=</div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

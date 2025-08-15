@@ -1,0 +1,77 @@
+.head{
+    text-align: center;
+}
+.logo img{
+    height: 4em;
+    width: 4em;
+    position: relative;
+    top: 8em;
+    right: 18em;
+}
+.heading{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: xx-large;
+}
+.txt{
+    font-size: small;
+    position: relative;
+    left: 15em;
+    bottom: 3em;
+}
+.main{
+    text-align: center;
+    margin-top: 2em ;
+}
+.main-box{
+    display: inline-grid;
+    border: 0.2rem solid black;
+    border-radius: 10%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.r1 , .r2 ,.r3 ,.r4,.r5{
+    display: flex;
+}
+#ac{
+    border: 2px solid black;
+    height: 2em;
+    font-size: xx-large;
+    width: 2em;
+    text-align: center;
+    align-content: center;
+    border-radius: 40%;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    font-weight: bolder;
+}
+#display{
+    border: 3px solid black;
+    height: 4em;
+    width: 12em;
+    border-radius: 15%;
+    text-align: right;
+}
+#display-p{
+    height: fit-content;
+    margin-top: 1rem;
+    word-wrap: break-word;
+}
+#bt1 , #bt2 ,#bt3,#btadd ,#bt4,  #bt5 ,#bt6 , #btsub ,#bt7, #bt8, #bt9, #btml ,#btdeci ,#bt0 ,#btdiv ,#btans {
+    border: 2px solid black;
+    height: 2em;
+    font-size: xx-large;
+    width: 2em;
+    text-align: center;
+    align-content: center;
+    border-radius: 40%;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    font-weight: bolder;
+    /* transition: background 0.3s ; */
+}
+#bt1:hover , #bt2:hover ,#bt3:hover,#btadd:hover ,#bt4:hover,  #bt5:hover ,#bt6:hover , #btsub:hover ,#bt7:hover, #bt8:hover, #bt9:hover, #btml:hover ,#btdeci:hover ,#bt0:hover ,#btdiv:hover ,#btans:hover {
+    background: repeating-linear-gradient(45deg, #a39292, transparent 100px);
+}
+#ac:hover{
+    background: repeating-linear-gradient(45deg, #a39292, transparent 100px);
+}
